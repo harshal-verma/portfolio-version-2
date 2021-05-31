@@ -1,5 +1,106 @@
-
+/* font-family: 'Open Sans', sans-serif;
+font-family: 'Pacifico', cursive;
+font-family: 'Ubuntu Condensed', sans-serif; */
+:root{
+    --primary-color: #264653;
+    --secondary-color: #52F6DD;
+    --grey: #AAAAAA;
+    --orange: #EE9078;
+    --white: #ffffff;
+}
 *{
     box-sizing: border-box;
+    margin: 0;
 }
 
+body{
+    margin: 0;
+}
+
+/* navbar */
+
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    background-color: var(--primary-color);
+    padding: 1rem 0rem;
+}
+
+.navbar__hero--link{
+    text-decoration: none;
+}
+
+.navbar__hero{
+    font-family: 'Pacifico', cursive;
+    font-size: 28px;
+    color: var(--secondary-color);
+}
+
+.navbar__hero:hover{
+    color: var(--orange);
+}
+
+.navbar__list{
+    font-family: 'Ubuntu Condensed', sans-serif;
+    align-self: center;
+    font-size: 19px;
+}
+
+.list--inline li{
+    display: inline;
+    padding: 0rem 1.5rem;
+
+}
+
+.list--inline li a{
+    text-decoration: none;
+    color: var(--secondary-color);
+}
+
+.list--inline li a:hover{
+    color: var(--orange);
+}
+
+/* header */
+
+.header__flex{
+    display: flex;
+    justify-content: space-evenly;background-color: var(--primary-color);
+    flex-wrap: wrap;
+    padding: 2rem 0rem;
+}
+
+.header__intro{
+    align-self: center;
+}
+
+.header__intro h2{
+    color: var(--grey);
+    font-family: 'Ubuntu Condensed', sans-serif;
+    letter-spacing: 2px;
+    font-size: 1.75rem;
+    padding-bottom: 0.5rem;
+}
+
+.header__intro h1{
+    color: var(--white);
+    font-family: 'Ubuntu Condensed', sans-serif;
+    letter-spacing: 1px;
+    font-size: 3rem;
+    padding-bottom: 0.5rem;
+}
+
+.header__intro--color{
+    color: var(--orange);
+}
+
+.header__intro p{
+    color: var(--white);
+    font-family: 'Open Sans', sans-serif;
+    letter-spacing: 0.5px;
+    font-size: 1.5rem;
+}
+.header__image--style{
+    width: 400px;
+    height: 300px;
+}
