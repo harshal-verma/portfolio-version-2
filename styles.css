@@ -48,13 +48,12 @@ body{
 
 .list--inline li{
     display: inline;
-    padding: 0rem 1.5rem;
-
 }
 
 .list--inline li a{
     text-decoration: none;
     color: var(--secondary-color);
+    padding: 0rem 1.5rem;
 }
 
 .list--inline li a:hover{
@@ -153,4 +152,63 @@ body{
     color: var(--primary-color);
     font-family: 'Ubuntu Condensed', sans-serif;
     margin: 8px 0px;
+}
+
+/* projects */
+.project__flex{
+ 
+}
+
+.project__intro{
+    display: flex;
+    justify-content: space-between;
+    width: 73%;
+    margin: 2rem auto;
+}
+
+.view__btn{
+    background-color: white;
+    border: none;
+    font-family: 'Ubuntu Condensed', sans-serif; 
+    color: var(--orange);
+    font-size: 23px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+
+.view__btn:hover{
+    color: var(--secondary-color)
+}
+
+.project__display{
+    display: flex;
+    justify-content: space-between;
+    width: 73%;
+    margin: 0rem auto;
+}
+
+.project__card{
+    width:48%;
+}
+
+.project__card--img{
+    width: 100%;
+    height: auto;
+}
+
+.project__card--heading{
+
+}
+
+.project__card--display{
+
+}
+
+.live__btn{
+
+}
+
+.source__btn{
+
 }
