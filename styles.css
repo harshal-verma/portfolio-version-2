@@ -186,6 +186,7 @@ body{
     display: flex;
     justify-content: space-between;
     width: 73%;
+    height: auto;
     margin: 0rem auto;
     flex-wrap: wrap;
 }
@@ -346,3 +347,8 @@ body{
     font-size: 22px;
 }
 
+/*project.html css*/
+.project__main--header{
+    width: 73%;
+    margin: 2rem auto;
+}
