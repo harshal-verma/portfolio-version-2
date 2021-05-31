@@ -31,13 +31,13 @@ body{
     text-decoration: none;
 }
 
-.navbar__hero{
+.banner{
     font-family: 'Pacifico', cursive;
     font-size: 28px;
     color: var(--secondary-color);
 }
 
-.navbar__hero:hover{
+.banner:hover{
     color: var(--orange);
 }
 
@@ -242,6 +242,7 @@ body{
     margin: 16px 8px;
     letter-spacing: 0.5px;
     border-radius: 4px;
+    cursor: pointer;
 }
 
 .source__btn{
@@ -254,6 +255,7 @@ body{
     background-color: var(--white);
     letter-spacing: 0.5px;
     border-radius: 4px;
+    cursor: pointer;
 }
 
 /* blog */
@@ -282,7 +284,7 @@ body{
     margin-block-start: 0px;
     margin-block-end: 0px;
     padding-inline-start: 0px;
-    margin: 8px;
+    margin: 16px 8px;
 }
 .blog__card ul li{
     color: var(--orange);
@@ -308,6 +310,28 @@ body{
     color: var(--white);
     padding: 8px 12px;
     border-radius: 4px;
+    cursor: pointer;
 }
 
 /* footer */
+.footer__flex{
+    background-color: var(--primary-color);
+    display: flex;
+    justify-content: space-around;
+    margin-top: 3rem;
+    padding: 1rem 0rem;
+}
+
+.footer__flex ul{
+    align-self: center;
+    font-family: 'Ubuntu Condensed', sans-serif;
+}
+
+.footer__flex ul li{
+    
+}
+
+.footer__flex ul li a{
+    font-size: 22px;
+}
+
