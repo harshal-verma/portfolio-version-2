@@ -1,34 +1,120 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>harshal | home</title>
-    <link rel="stylesheet" href="/styles.css">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Pacifico&family=Ubuntu+Condensed&display=swap" rel="stylesheet">
-</head>
-<body>
+    <link rel="stylesheet" href="/styles.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Pacifico&family=Ubuntu+Condensed&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
     <nav class="navbar">
-        <a href="/html/index.html" class="navbar__hero--link"><p class="navbar__hero">harshal</p></a>
-        <ul class="navbar__list list--inline">
-            <li><a href="/html/index.html">Home</a></li>
-            <li><a href="/">Projects</a></li>
-            <li><a href="/">Blog</a></li>
-        </ul>
+      <a href="/html/index.html" class="navbar__hero--link"
+        ><p class="navbar__hero">harshal</p></a
+      >
+      <ul class="navbar__list list--inline">
+        <li><a href="/html/index.html">Home</a></li>
+        <li><a href="/">Projects</a></li>
+        <li><a href="/">Blog</a></li>
+      </ul>
     </nav>
     <main>
-        <header class="header__flex">
-            <div class="header__intro">
-                <h2>Hello,</h2>
-                <h1>I'm <span class="header__intro--color">Harshal Verma</span></h1>
-                <p>I'm a Frontend developer</p>
-            </div>
-            <figure class="header__image">
-                <img src="/images/intro__image.svg" alt="intro image" class="header__image--style">
-            </figure>
-        </header>
+      <header class="header__flex">
+        <div class="header__intro">
+          <h2>Hello,</h2>
+          <h1>I'm <span class="header__intro--color">Harshal Verma</span></h1>
+          <p>I'm a Frontend developer</p>
+        </div>
+        <figure class="header__image">
+          <img
+            src="/images/intro__image.svg"
+            alt="intro image"
+            class="header__image--style"
+          />
+        </figure>
+      </header>
+      <section class="section__flex">
+        <div class="section__intro">
+          <h2 class="section__header">My Skills</h2>
+          <p class="section__para">
+            A list of languages / frameworks / technologies that I've learnt so
+            far.
+          </p>
+        </div>
+        <div class="section__skill">
+          <div>
+            <img src="/images/html-5.png" alt="" class="section__skill--img" />
+            <p class="section__skill--title">HTML5</p>
+          </div>
+          <div>
+            <img src="/images/css-3.png" alt="" class="section__skill--img" />
+            <p class="section__skill--title">CSS3</p>
+          </div>
+          <div>
+            <img
+              src="/images/bootstrap.svg"
+              alt=""
+              class="section__skill--img"
+            />
+            <p class="section__skill--title">Bootstrap</p>
+          </div>
+          <div>
+            <img
+              src="/images/javascript.svg"
+              alt=""
+              class="section__skill--img"
+            />
+            <p class="section__skill--title">JavaScript</p>
+          </div>
+          <div>
+            <img
+              src="/images/reactjs-icon.svg"
+              alt=""
+              class="section__skill--img"
+            />
+            <p class="section__skill--title">ReactJS</p>
+          </div>
+        </div>
+        <hr />
+      </section>
+      <section class="project__flex">
+        <div class="project__intro">
+          <div>
+            <h2 class="section__header">My Projects</h2>
+            <p class="section__para">
+              I like to showcase my work and thus, you can see my projects
+              hosted online
+            </p>
+          </div>
+        </div>
+        <button class="view__btn">View All</button>
+        <div class="project__dislay">
+          <div class="project__card">
+            <img src="" alt="" class="project__card--img" />
+            <h2 class="project__card--heading">Project Name</h2>
+            <ul>
+              <li>JavaScript</li>
+              <li>Github API</li>
+              <li>CSS3</li>
+              <li>HTML5</li>
+            </ul>
+            <p class="project__card--display">
+              A project using Github API to display 30 most popular repositories
+              of a selected topic. You can change the display layout from
+              cardview or listview. Also features theme change betweeen darkmode
+              and lightmode. It uses vue-router, vuex, axios, tailwind and
+              hint.css library. It's deployed on Netlify.
+            </p>
+            <button class="live__btn">Live Project</button>
+            <button class="source__btn">View Source</button>
+          </div>
+        </div>
+      </section>
     </main>
-</body>
+  </body>
 </html>

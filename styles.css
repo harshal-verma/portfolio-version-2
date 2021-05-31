@@ -23,7 +23,7 @@ body{
     display: flex;
     justify-content: space-around;
     background-color: var(--primary-color);
-    padding: 1rem 0rem;
+    padding: 0.5rem 0rem;
 }
 
 .navbar__hero--link{
@@ -103,4 +103,54 @@ body{
 .header__image--style{
     width: 400px;
     height: 300px;
+}
+
+/* skill section */
+.section__flex{
+    display: flex;
+    flex-direction: column;
+    align-items:flex-start;
+}
+
+.section__intro{
+    width: 73%;
+    margin: 2rem auto;
+}
+
+.section__header{
+    color: #264653;
+    font-family: 'Ubuntu Condensed', sans-serif;
+    font-size: 32px;
+    margin: 8px 0px;
+}
+
+.section__para{
+    color: var(--grey);
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    margin: 8px 0px;
+}
+
+.section__skill{
+    display: flex;
+    justify-content:space-between;
+    width: 73%;
+    margin: 0rem auto;
+}
+
+.section__skill div{
+    width: 10%;
+}
+
+.section__skill--img{
+    width: 100%;
+    height: auto;
+}
+
+.section__skill--title{
+    text-align: center;
+    color: var(--primary-color);
+    font-family: 'Ubuntu Condensed', sans-serif;
+    margin: 8px 0px;
 }
