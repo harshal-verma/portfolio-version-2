@@ -35,6 +35,7 @@ body{
     font-family: 'Pacifico', cursive;
     font-size: 28px;
     color: var(--secondary-color);
+    letter-spacing: 1.5px;
 }
 
 .banner:hover{
@@ -65,7 +66,8 @@ body{
 
 .header__flex{
     display: flex;
-    justify-content: space-evenly;background-color: var(--primary-color);
+    justify-content: space-evenly;
+    background-color: var(--primary-color);
     flex-wrap: wrap;
     padding: 2rem 0rem;
 }
@@ -101,8 +103,8 @@ body{
     font-size: 1.5rem;
 }
 .header__image--style{
-    width: 400px;
-    height: 300px;
+    width: 350px;
+    height: 350px;
 }
 
 /* skill section */
@@ -113,7 +115,7 @@ body{
 }
 
 .section__intro{
-    width: 73%;
+    width: 70%;
     margin: 2rem auto;
 }
 
@@ -135,7 +137,7 @@ body{
 .section__skill{
     display: flex;
     justify-content:space-between;
-    width: 73%;
+    width: 70%;
     margin: 0rem auto;
 }
 
@@ -163,7 +165,7 @@ body{
 .project__intro{
     display: flex;
     justify-content: space-between;
-    width: 73%;
+    width: 70%;
     margin: 2rem auto;
 }
 
@@ -185,7 +187,7 @@ body{
 .project__display{
     display: flex;
     justify-content: space-between;
-    width: 73%;
+    width: 70%;
     height: auto;
     margin: 0rem auto;
     flex-wrap: wrap;
@@ -272,7 +274,7 @@ body{
 }
 
 .blog__card{
-    width: 73%;
+    width: 70%;
     margin: 0 auto;
     border: 1px solid var(--primary-color);
     border-radius: 4px;
@@ -413,7 +415,7 @@ body{
     background-color: var(--bg-grey);
     margin: 10px 0px;
     align-self: center;
-    padding: 2.5px;
+    padding: 3px;
     color: var(--orange);
 }
 
