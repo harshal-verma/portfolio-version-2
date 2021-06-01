@@ -369,7 +369,7 @@ body{
 
 .main__project--img{
     width: 100%;
-    height: auto;
+    height: 100%;
 }
 
 .main__project--card ul{
@@ -419,3 +419,36 @@ body{
     color: var(--orange);
 }
 
+/* media queries */
+@media screen and (max-width: 769px){
+
+    /* home */
+
+    .project__display{
+        display: block;
+    }
+    .project__card{
+        width: 100%;
+        margin-bottom: 2rem;
+    }
+
+    /* projects.html */
+    .main__project--card{
+        display: block;
+    }
+}
+
+@media screen and (max-width: 522px){
+    .banner{
+        display: none;
+    }
+    
+    .navbar{
+        justify-content: center;
+        padding: 1rem 2.6rem 1rem 0rem;
+    }
+    .footer__flex{
+        justify-content: center;
+        padding-right: 2.3rem;
+    }
+}
