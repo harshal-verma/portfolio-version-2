@@ -348,7 +348,47 @@ body{
 }
 
 /*project.html css*/
-.project__main--header{
+.main__project--header{
     width: 73%;
     margin: 2rem auto;
 }
+
+.main__project--card{
+    display: flex;
+    /* flex-wrap: wrap; */
+    border: 1px solid var(--primary-color);
+    border-radius: 4px;
+    width: 73%;
+    margin: 2rem auto;
+}
+
+.main__project--card figure{
+}
+
+.main__project--img{
+    width: 100%;
+    height: auto;
+}
+
+.main__project--card ul{
+    margin-block-start: 0px;
+    margin-block-end: 0px;
+    padding-inline-start: 0px;
+    margin: 8px;
+}
+
+.main__project--card ul li{
+    font-family: 'Open Sans', sans-serif;
+    background-color: var(--bg-grey);
+    margin: 10px 0px;
+    align-self: center;
+    padding: 2.5px;
+    color: var(--orange);
+} 
+
+.project__card--para{
+    color: var(--primary-color);
+    font-family: 'Open Sans', sans-serif;
+    margin: 0px 8px;
+}
+
