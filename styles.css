@@ -22,13 +22,6 @@ body {
   padding: 0.5rem 0rem;
 }
 
-.navbar div{
-  width: 70%;
-  margin: 0 auto;
-  display: flex;
-  justify-content: space-between;
-}
-
 .navbar__hero--link {
   text-decoration: none;
 }
