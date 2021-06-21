@@ -24,7 +24,8 @@
     <link rel="manifest" href="/site.webmanifest" />
   </head>
   <body>
-    <nav class="navbar">
+    <nav>
+      <div class="navbar">
       <a href="/index.html" class="navbar__hero--link"
         ><p class="banner">HarshalVerma</p></a
       >
@@ -33,9 +34,11 @@
         <li><a href="/projects.html">Projects</a></li>
         <li><a href="/blog.html">Blog</a></li>
       </ul>
+      </div>
     </nav>
     <main>
-      <header class="header__flex">
+      <header>
+        <div class="header__flex">
         <div class="header__intro">
           <h2>Hello,</h2>
           <h1>I'm <span class="header__intro--color">Harshal Verma</span></h1>
@@ -48,6 +51,7 @@
             class="header__image--style"
           />
         </figure>
+        </div>
       </header>
       <section class="section__flex">
         <div class="section__intro">
@@ -179,7 +183,31 @@
             selectors like class and id, there are some CSS selectors that can
             help us write effective CSS code. Let us see them using use cases.
           </p>
-          <a href="/blog.html"
+          <a href="https://hashnode.com/post/what-are-css-selectors-cknt407uq02y9bts1fmly97ds"
+            ><button class="view__blog--btn">
+              <i class="fas fa-eye"></i>View blog
+            </button></a
+          >
+        </div>
+        <div class="blog__card">
+          <h2 class="blog__card--header">Getting started with fetch API</h2>
+          <ul class="list--inline">
+            <li>JavaScript</li>
+          <li>fetch API</li>
+          </ul>
+          <p class="blog__card--desp">
+            The fetch API provides an interface for fetching resources. It is the
+            an easy and a logical way to fetch resources. Fetch provides an
+            generic definition of Request and Response objects ( and other things
+            involved with network requests ). The fetch() methods takes on
+            mandatory argument, the path to the resource you want to fetch. It
+            returns a promise that resolves to the Response to that Request. Once
+            a Response is retrieved, there are a number of methods how the data
+            should be handled. Example: I'll demonstrate a basic fetch request
+            using a dummy API from JSON placeholder . This dummy API fetches a
+            list of users with associated data.
+          </p>
+          <a href="https://harshalvermaaaaa.hashnode.dev/getting-started-with-fetch-api"
             ><button class="view__blog--btn">
               <i class="fas fa-eye"></i>View blog
             </button></a
@@ -187,7 +215,8 @@
         </div>
       </section>
     </main>
-    <footer class="footer__flex">
+    <footer>
+      <div class="footer__flex">
       <a href="/index.html" class="navbar__hero--link"
         ><p class="banner">HarshalVerma</p></a
       >
@@ -208,6 +237,7 @@
           ></a>
         </li>
       </ul>
+      </div>
     </footer>
   </body>
 </html>
