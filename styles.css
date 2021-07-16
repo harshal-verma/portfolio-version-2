@@ -197,6 +197,17 @@ header{
   width: 48%;
   border: 1px solid var(--primary-color);
   border-radius: 4px;
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+}
+
+.project-card-wrapper{
+  flex-grow: 1;
+}
+
+.project-btn{
+  display: flex;
 }
 
 .project__card--img {
